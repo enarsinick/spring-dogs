@@ -1,0 +1,8 @@
+DROP TABLE IF EXISTS `dog` CASCADE;
+
+CREATE TABLE `dog` (
+	`id` INT PRIMARY KEY AUTO_INCREMENT, 
+	`age` INT NOT NULL, 
+	`breed` VARCHAR(255), 
+	`name` VARCHAR(255)
+);
